@@ -7,5 +7,11 @@ def oxford_comma(array)
     return "#{array[0]}, #{array[1]}, and #{array[2]}"
   elsif array.size > 3
     range = 0..array-1
+    s = ""
+    for name in range
+      if name < array-2
+        s = s + "#{array[name]}, "
+      else
+        s = s + "and #{array[-1]}"
   end
 end
