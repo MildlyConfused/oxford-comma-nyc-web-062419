@@ -13,5 +13,9 @@ def oxford_comma(array)
         s = s + "#{array[name]}, "
       else
         s = s + "and #{array[-1]}"
+      end
+    end
+    puts s 
+    return s
   end
 end
