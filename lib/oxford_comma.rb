@@ -9,7 +9,7 @@ def oxford_comma(array)
     range = 0..array.size-1
     s = ""
     for name in range
-      if name < array.size-2
+      if name < array.size-1
         s = s + "#{array[name]}, "
       else
         s = s + "and #{array[-1]}"
