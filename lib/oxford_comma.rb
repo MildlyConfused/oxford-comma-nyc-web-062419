@@ -6,6 +6,6 @@ def oxford_comma(array)
   elsif array.size == 3
     return "#{array[0]}, #{array[1]}, and #{array[2]}"
   elsif array.size > 3
-    
+    range = 0..array-1
   end
 end
